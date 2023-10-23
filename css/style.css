@@ -1,0 +1,167 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    background-color: white;
+}
+
+
+.legendHeader {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 10px 10px;
+    color: brown;
+    text-shadow: 1px 2px 2px black;
+}
+
+.section {
+    font-family: 'Lato', sans-serif;
+  font-size: 20px;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 10px 5px;
+    color: brown;
+    border-bottom: 2px brown soli;
+    text-decoration: none;
+}
+
+.containerMain {
+    background-color: #eee;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dark {
+    color: black;
+    background-color: #222;
+
+}
+
+.image {
+    margin: 20px 50px;
+    border: solid 2px brown;
+    border-radius: 20px;
+}
+
+.button {
+    font-family: 'Lato', sans-serif;
+    margin: 20px 50px;
+    padding: 10px 10px;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 10px;
+    background-color: hsl(39, 49%, 93%);
+}
+
+.header {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 10px 10px;
+    color: brown;
+    border-bottom: solid 2px brown;
+    text-shadow: 1px 2px 2px black;
+}
+
+.article {
+    text-align: center;
+    border: solid 2px brown;
+    border-radius: 10px;
+    color: black;
+    background-color: hsl(39, 49%, 93%);
+    margin: 20px 50px;
+    padding: 20px 20px;
+}
+
+.subHeader {
+    font-family: 'IBM Plex Mono', monospace;
+    color: brown;
+    text-shadow: 1px 2px 2px black;
+}
+
+.table {
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    border-collapse: collapse;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px 20px;
+}
+
+.tableCell {
+    border: 1px solid rgb(86, 14, 14);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    color: brown;
+    caption-side: bottom;
+    text-align: right;
+    margin: 10px;
+}
+
+.tableHeader {
+    background-color: rgb(130, 19, 19);
+    color: wheat;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #e8dddd;
+}
+
+.tableRow:hover {
+    background-color: rgb(175, 158, 158);
+}
+
+.containerTable {
+    overflow-x: auto;
+}
+
+.containerContact {
+    border-top: 2px solid brown;
+    color: brown;
+    text-align: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+    max-width: 1200px;
+}
+
+.link {
+    color: #d46767;
+    text-decoration: none;
+}
+
+.linkLists {
+    color: brown;
+}
+
+.linkListsStyle {
+    color: brown;
+    text-decoration: none;
+}
+
+.footer {
+    color: brown;
+    text-align: center;
+    margin: 10px 10px;
+    border-top: 1px solid brown;
+}
